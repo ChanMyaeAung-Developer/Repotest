@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>JavaScript Form Validation using a sample registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='reg.css' type='text/css' />
+<link href="home.css" rel="stylesheet" type="text/css">
+
+<script src="reg.js"></script>
+ 
+</head>
+<body>
+<div id="container"align="center">
+                                       <div id="header">
+			<h1>Main Heading</h1>
+		        </div>
+
+		        <div id="nav">
+		      		<ol>
+		             			<li><a href="home.html">Home   .</a></li>
+		             			<li><a href="reg.html">Student Registration Form</a></li>
+		             			<li><a href="Log.html">Login Form</a></li>
+		             			<li><a href="contact.html">Contact</a></li>
+	  	             		
+	 	     		</ol>	                      
+		         </div>
+	
+   
+<h1 align>Registration Form</h1>
+<h3>Use tab keys to move from one input field to the next.</h3>
+<form name='registration'align="center" onSubmit="return display()";">
+
+<ul>
+<li><label for="userid">Roll Number:</label></li>
+<li><input type="text" name="userid" size="12" /></li>
+
+
+<li><label for="username">Name:</label></li>
+<li><input type="text" name="username" size="50" /></li>
+
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" size="50" onblur="return formValidation()" /></li>
+
+<li><label for="address">Address:</label></li>
+<li><input type="text" name="address" size="50" /></li>
+
+
+
+
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+
+
+
+</body>
+</html>

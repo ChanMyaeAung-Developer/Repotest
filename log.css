@@ -1,0 +1,14 @@
+table{
+  font-family: Calibri; 
+  color:white; 
+  font-size: 50pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color: red; 
+  border-collapse: collapse; 
+  border: 2px solid navy
+}
+table.inner{
+  border: 0px
+}

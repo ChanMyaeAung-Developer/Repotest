@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<head>
+
+
+</head>
+<body>
+
+<ul>
+<li>ID::<input type="text" name="userid" size="50" id=" userid"/></li>
+<li>Name::<input type="text" name="username" size="50"id="uname "/></li>
+<li>Email::<input type="text" name="email" size="50"id="uemail"/></li>
+<li>Address::<input type="text" name="address" size="50" id="uadd"/></li>
+<li><button onclick="display()" />N</button></li>
+</ul>
+
+
+
+<script>
+function display()
+{ 
+alert(document.getElementById("userid").value+
+ document.getElementById("uname").value+
+ document.getElementById("uemail").value+
+document.getElementById("uadd").value);
+
+}
+</script>
+</body>
+</html>

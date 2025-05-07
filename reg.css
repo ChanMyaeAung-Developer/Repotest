@@ -1,0 +1,29 @@
+h1{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:red;
+  text-align: center; 
+  text-decoration: underline
+}
+h3{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:blue;
+  text-align: left; 
+  text-decoration: underline
+}
+ul{
+  font-family: Calibri; 
+  color:gold; 
+  font-size: 11pt; 
+  font-style: italic;
+  font-weight: bold;
+  text-align:; 
+  background-color: black; 
+  border-collapse: collapse; 
+  border: 2px solid navy
+}
